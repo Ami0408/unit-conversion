@@ -25,6 +25,8 @@
  align-items: center;
  margin-left: 5%;
  margin-right: 5%;
+ margin-top: 20vh;
+ margin-bottom: 3vh;
 }
 h3{
  padding-top: 0.5vh;
@@ -33,11 +35,11 @@ footer{
  margin-top: 15vh;
  display: flex;
  justify-content: center;
-
+ font-weight: bolder;
 }
 span{
  font-family: Inter;
- font-weight: 100;
+ font-weight: bolder;
  font-size: 1rem;
  
 }
@@ -50,7 +52,7 @@ form{
     justify-content: center;
     font-family: Inter;  
     transform: scale(1.5);
-}
+  }
   label{
     text-align: center;
   }
@@ -80,17 +82,22 @@ form{
 }
 .result{
  text-align: center;
- font-family: "Poetsen One", sans-serif;
+ font-family: "Inter", sans-serif;
  font-weight: 400;
  font-style: normal;
 }
 
 
 button:hover{
- transform: scale(0.625);
  background-color: #227fdd;
  color: white;
 }
 body{
  background-color: #F8E8D9;
+}
+section{
+ height: 35vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }

@@ -60,7 +60,7 @@ export default function Form() {
         <label htmlFor="field">{display}</label>
         <input type="text" name="input" id="field" />
         <button type="submit">Calculate</button>
-        <span className ='result'>{answer !== '' && `Result: ${answer} ${units}`}</span> {/* Conditional rendering of the result */}
+        <span className ='result'>{answer !== '' && `Result: ${Math.round(answer,2)} ${units}`}</span> {/* Conditional rendering of the result */}
       </form>
     </section>
   );
