@@ -1,0 +1,96 @@
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.header{
+ width: 90%;
+ height: 4vh;
+ font-family: Rubik;
+ font-size: 14px;
+ border-radius: 20px;
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+ color: white;
+ background-color: #227fdd;
+ box-shadow: 0px 1px 2px 0px rgba(0,0,0.1);
+ font-weight: 100;
+ padding-top: 0.5vh;
+ padding-bottom: 0.5vh;
+ align-items: center;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+h3{
+ padding-top: 0.5vh;
+}
+footer{
+ margin-top: 15vh;
+ display: flex;
+ justify-content: center;
+
+}
+span{
+ font-family: Inter;
+ font-weight: 100;
+ font-size: 1rem;
+ 
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50vw;
+    justify-content: center;
+    font-family: Inter;  
+    transform: scale(1.5);
+}
+  label{
+    text-align: center;
+  }
+  input{
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid ;
+    font-size: 20px;
+    padding-left: 35%;
+}
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border-radius: 10px;
+
+  }
+  select> option{
+    text-align: center;
+  }
+  button{
+    background-color: white;
+    border: 0.5px solid;
+    height: 3em;
+    border-radius: 20px;
+}
+.result{
+ text-align: center;
+ font-family: "Poetsen One", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+
+
+button:hover{
+ transform: scale(0.625);
+ background-color: #227fdd;
+ color: white;
+}
+body{
+ background-color: #F8E8D9;
+}
